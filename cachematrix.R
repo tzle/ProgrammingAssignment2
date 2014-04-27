@@ -44,7 +44,7 @@ cacheSolve <- function(x, ...) {
 #         m <- x$getmean()
         m <- x$getinv()
         if(!is.null(m)) {
-                message("getting cached")
+                message("getting the cached value")
                 return(m)
         }
         data <- x$get()         #if cached value exists
